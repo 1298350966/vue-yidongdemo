@@ -4,12 +4,14 @@ import Vuex from 'vuex'
 Vue.use(Vuex)
 
 export default new Vuex.Store({
-  state: {
-  },
-  mutations: {
-  },
-  actions: {
-  },
-  modules: {
-  }
+  state:{
+    SearchShow: true,
+    SwipeShow: true,
+    NoticeShow: true,
+    TabShow: true,
+    Grid2Show: true,
+    Tab2Show: true,
+    GridShow:true
+},
+  
 })
